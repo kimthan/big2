@@ -1,0 +1,28 @@
+.testimg{
+    height: 150px;
+    display: inline;
+}
+
+.testparent{
+    position: relative;
+display: flex;
+flex-wrap: wrap;
+top:300px;
+}
+
+.testchild{
+    
+}
+
+.selected{
+    width:100px;
+    
+}
+
+.selectedItems{
+    width:500px;
+    height:150px;
+    background:red;
+   position: absolute;
+   top:50px;
+}

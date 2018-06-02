@@ -62,55 +62,30 @@ body{
   grid-area: seat4;
 }
 
+.currentSelection{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 50px);
+  justify-items: center;
 
+}
 
 
 .cardStyle{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 50px);
-  grid-template-areas:
-  
-  '. . . . .'
-  '. . . . .'
-'. . . . .'
-'kort1 kort2 kort3 kort4 kort5'
-
-'. . . . .'
+  grid-template-rows: repeat(3, 50px);
+ 
 
 ;
-
+justify-items: center;
 }
-
-
-
-.test1{
-  grid-area: kort1;
-}
-.test2{
-  grid-area: kort2;
-}
-.test3{
-  grid-area: kort3;
-}
-.test4{
-  grid-area: kort4;
-}
-.test5{
-  grid-area: kort5;
-}
-
-
-
-
-
 
 
 .actionButtons{
   
   text-align: center;
-  position: relative;
- bottom: -50px;
+  
 }
 
 .actionButtons > button{
