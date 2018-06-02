@@ -1,0 +1,119 @@
+body{
+  margin:0;
+  padding:0;
+  width: 100%;
+  height:100vh;
+}
+.header-loggo{
+  text-align: center;
+}
+
+.nameInput{
+ position: relative;
+ top:150px;
+  text-align: center;
+  background:#B5C0A2;
+}
+
+.nameInput > input {
+  text-align: center;
+}
+.nameInput > button{
+  margin:15px;
+}
+
+.playersbutton{
+  margin:10px;
+  border-radius: 50%;
+}
+
+.seats{
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  display: grid;
+  grid-template-areas:
+  
+
+  '. . seat3 . .'
+  '. . . . .'
+  'seat2 . . . seat4'
+  '. . . . .'
+  '. . seat1 . .'
+  '. . . . .';
+}
+
+.seat1{
+  grid-area: seat1;
+  border-radius: 50%;
+}
+
+.seat2{
+  grid-area: seat2;
+  border-radius: 50%;
+}
+
+.seat3{
+  border-radius: 50%;
+  grid-area: seat3;
+}
+
+.seat4{
+  border-radius: 50%;
+  grid-area: seat4;
+}
+
+
+
+
+.cardStyle{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 50px);
+  grid-template-areas:
+  
+  '. . . . .'
+  '. . . . .'
+'. . . . .'
+'kort1 kort2 kort3 kort4 kort5'
+
+'. . . . .'
+
+;
+
+}
+
+
+
+.test1{
+  grid-area: kort1;
+}
+.test2{
+  grid-area: kort2;
+}
+.test3{
+  grid-area: kort3;
+}
+.test4{
+  grid-area: kort4;
+}
+.test5{
+  grid-area: kort5;
+}
+
+
+
+
+
+
+
+.actionButtons{
+  
+  text-align: center;
+  position: relative;
+ bottom: -50px;
+}
+
+.actionButtons > button{
+  margin-left: 20px;
+  margin-right: 20px;
+}
